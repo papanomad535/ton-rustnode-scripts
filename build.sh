@@ -17,7 +17,7 @@ BIN_DIR="${SRC_TOP_DIR}/bin"
 TOOLS_DIR="${SRC_TOP_DIR}/tools"
 
 export RUSTFLAGS="-C target-cpu=native"
-RUST_VERSTION="1.54.0"
+RUST_VERSTION="1.56.0"
 
 sudo apt update && sudo apt install -y \
     gpg \
