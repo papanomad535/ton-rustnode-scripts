@@ -34,7 +34,8 @@ sudo apt update && sudo apt install -y \
     curl \
     gnupg2 \
     librdkafka-dev \
-    libzstd-dev
+    libzstd-dev \
+    google-perftools
 
 if command -v rustc &> /dev/null ; then
   INSTALLED_RUST_VERSION=$(rustc --version |awk '{print $2}')
